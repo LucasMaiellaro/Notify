@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    background-color: rgb(241, 241, 241);
+    display: grid;
+    grid-template-areas: 'navbar'
+                        'banner'
+                        'main'
+                        'section'
+                        'section'
+                        'footer'
+}
+
+nav {
+    grid-area: navbar;
+    background-color: green;
+    height: 15px;
+
+}
+
+/* ======== HEADER ========= */
+
+header {
+    grid-area: banner;
+    background-image: url(../imagens/banner.png);
+    height: 500px;
+    display: flex;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 60px;
+    margin-top: 120px;
+    margin-left: 275px;
+}
+
+.subtitulo{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 275px;
+}
+
+.div-2{
+    width: 570px;
+    display: flex;
+    margin: 0;
+}
+
+.div-3{
+    display: flex;
+    margin-left: 275px;
+    margin-top: 20px;
+    width: 130px;
+    justify-content: space-between
+}
+
+.subdiv-3{
+    background-color: rgb(0, 0, 0, 0.50);
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+}
+
+.subdiv-3:hover{
+    background-color: green;
+}
+
+.subimagem{
+    margin: 17%;
+}
+
+.mao{
+    width: 350px;
+    height: 402px;
+    margin-top: 98px;
+    margin-left: 196px;
+}
+
+/* ======== MAIN ======== */
+
+.div-main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.subdiv-main{
+    background-color: green;
+    border-radius:50%;
+    height: 100px;
+    width: 100px;
+}
+
+.subimagem-main{
+    margin: 26%;
+}
+
+.div-main-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.subtexto-main-e{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subtexto-main-f{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40px;
+}
+
+.subtexto-main-r{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.div-main-3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.subdiv-main-3{
+    width: 300px;
+}
+
+.subtexto-main-2{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(100, 100, 100, 0.80);
+}
+
+/* ======== SECTION 1======== */
+
+#section-1{
+    background-color: rgb(200, 200, 200, 0.60);
+    display: flex;
+    height: 500px;
+}
+
+.h2-section{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.texto-section{
+    width: 500px;
+    margin-left: 80px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(100, 100, 100, 0.80);
+}
+
+.formulario{
+    display: flex;
+    margin-left: 80px;
+}
+
+.input{
+    width: 320px;
+    height: 25px;
+    padding: 10px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-section{
+    background-color: green;
+    font-family: 'Roboto', sans-serif;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    width: 135px;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
+.video{
+    width: 430px;
+    height: 320px;
+    margin-top: 80px;
+    margin-left: 150px;
+    border-radius: 7px;
+}
+
+/* ========SECTION 2======== */
+
+.explicacao{
+    width: 800px;
+    margin-left: 270px;
+    margin-top: 60px;
+}
+
+.texto-explicacao{
+    color: rgb(117, 117, 117);
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.jame-hunt{
+    margin-left: 640px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pessoas{
+    margin-left: 160px;
+    margin-top: 35px;
+}
+
+.diga-oi{
+    margin-left: 577px;
+    margin-top: 55px;
+}
+
+.h2-diga-oi{
+    font-family: 'Roboto', sans-serif;
+}
+
+.frase{
+    margin-left: 497px;
+}
+
+.frase-p{
+    color: rgb(117, 117, 117);
+    font-family: 'Roboto', sans-serif;
+}
+
+.redes-sociais{
+    width: 26px;
+    height: 26px;
+    color: white;
+}
+
+/* ========FOOTER======== */
+
+footer{
+    background-color: rgb(200, 200, 200, 0.60);
+    height: 150px;
+}
+.div-footer{
+    width: 600px;
+    margin-left: 400px;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contatos{
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    font-family: 'Roboto', sans-serif;
+}
